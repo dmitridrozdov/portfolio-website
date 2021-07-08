@@ -43,9 +43,13 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id='about'>
+      <SectionTitle>About me</SectionTitle>
+      <SectionText>
+        Front-End development / Automation
+      </SectionText>
+      
+    </Section>
   );
 };
 
