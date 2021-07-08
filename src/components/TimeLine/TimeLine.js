@@ -48,7 +48,9 @@ const Timeline = () => {
       <SectionText>
         Front-End development / Automation
       </SectionText>
-      
+      <CarouselContainer ref={carouselRef}>
+
+      </CarouselContainer>
     </Section>
   );
 };
