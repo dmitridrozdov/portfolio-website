@@ -49,7 +49,11 @@ const Timeline = () => {
         Front-End development / Automation
       </SectionText>
       <CarouselContainer ref={carouselRef}>
+        {TimeLineData.map((item, index) => (
+          <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
 
+          </CarouselMobileScrollNode>
+        ))}
       </CarouselContainer>
     </Section>
   );
