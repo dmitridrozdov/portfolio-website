@@ -1,15 +1,31 @@
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import React from 'react'
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { SocialIcons } from '../Header/HeaderStyles'
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles'
 
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
-  );
-};
+    <FooterWrapper>
+      <LinkList>
+        <LinkColumn>
+          <LinkTitle>Call</LinkTitle>
+          <LinkItem href='tel: 111-111-111'>111-111-111</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Email</LinkTitle>
+          <LinkItem href='email: dm.drozdov@gmail.com'>dm.drozdov@gmail.com</LinkItem>
+        </LinkColumn>
+      </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+          <Slogn>
+            
+          </Slogn>
+        </CompanyContainer>
+      </SocialIconsContainer>
+    </FooterWrapper>
+  )
+}
 
-export default Footer;
+export default Footer
