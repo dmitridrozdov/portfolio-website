@@ -19,9 +19,9 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogn>
-            
-          </Slogn>
+          <Slogan>
+
+          </Slogan>
         </CompanyContainer>
       </SocialIconsContainer>
     </FooterWrapper>
